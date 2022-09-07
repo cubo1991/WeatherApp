@@ -1,0 +1,28 @@
+
+.app{
+    background-image: url(./components/assets/rainy-10.gif);
+background-repeat:no-repeat;
+background-size:cover;
+height: 100vh;
+width: fit-content;
+display: grid;
+grid-template-columns:repeat(1, 100vw);
+
+
+ }
+
+
+.header{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+
+}
+
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
